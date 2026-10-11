@@ -1,0 +1,72 @@
+﻿# ====================== .NET / Visual Studio ======================
+# Resultados de compilación
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]uild/
+
+# Artefactos de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.cache
+*.db
+*.vsidx
+
+# Paquetes NuGet (se restauran, no se versionan)
+[Pp]ackages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider / VS Code
+.idea/
+*.sln.iml
+.vscode/
+
+# Publicación
+*.publish.xml
+*.azurePubxml
+publish/
+
+# Pruebas y cobertura
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Instaladores / empaquetado
+*.msi
+*.msix
+*.cab
+*.appx
+
+# Copias de seguridad
+*.bak
+*.tmp
+
+# Logs del servicio
+**/logs/
